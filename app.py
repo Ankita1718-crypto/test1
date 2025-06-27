@@ -7,7 +7,7 @@ model = joblib.load("house_price_model.pkl")
 columns = joblib.load("model_columns.pkl")
 
 # Page UI
-st.title("🏠 House Price Prediction App")
+st.title("🏠 : House Price Prediction App")
 st.write("Enter house details to predict the price")
 
 # Input fields
